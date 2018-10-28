@@ -1,0 +1,47 @@
+#lattitude{ background-color: #0bada6;
+    width: 100px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    }
+.background{
+    background: #ededed;
+    width: 100%;
+    height: 100%;
+    font-family: Georgia;
+    }
+.nav-link{
+    right:30px;
+  }
+nav {
+    background-repeat: no-repeat;
+    width: 100%;}
+#comparison{
+    position: relative;
+    top: 80px;
+    width: 90%;
+    height: 2000%;
+    background: white;
+}
+#main_text{
+    position: relative;
+    left: 80px;
+    
+}
+p {position: relative;
+    left: 80px;}
+img{position: relative;
+    max-width:70%;
+    max-height:auto;
+left: 40px;}
+
+@media only screen and (max-width: 989px) {
+#comparison{
+        position: relative;
+        top: 80px;
+        width: 150%;
+        height: 2000%;
+        background: white;
+}
+}
