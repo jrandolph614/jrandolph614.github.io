@@ -37,9 +37,9 @@
         <div class="container">
             <div class="row align-items-center text-center" >
                 <div  id="Bio">
-                <h1>Bio</h1>
+                <h1>Biography</h1>
                 <hr class="my-4"> 
-                <p>A graduate from Kean University with a bachelors in Biology and competed at a national level in Olympic Weightlifting. 
+                <p style="font-size: 16pt;">A graduate from Kean University with a bachelors in Biology and competed at a national level in Olympic Weightlifting. 
                     Able to balance demanding workloads and maintain deadlines of projects given.
                     Adept at working independently as well as with a team to analyze, display, and communicate data to a varied audience. 
                     Looking for a full-time junior data engineer position.</p>
@@ -50,21 +50,32 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-6">
-                    <h1>Apple Store Vs. Google Play Store</h1>
-
-                    <img src="appledis.png"> 
-                    <br>
-                    <br>
-                    <img src="googledistribution.png">
-                </div>
-                    <div class="col-md-6">
-                        <h1>Extraction, Transform, Load</h1>
-                        <tbody>
-
-                        </tbody>
+                    <div class="col-md-5">
+                    <div class="factor" style="padding-left: 50px;">
+                      <h5>Select Market Factor:</h5>
+                      <select id="selmapFactor" onchange="mapfactorChanged(this.value)"></select>
                     </div>
+                    </div>
+                  </div>
+                  
+                  
+                    <div id="map" data-aos="fade-right" data-aos-duration="3000"></div>
+                  
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Apple Store Vs. Google Play Store</h1>
+                    <div class="col-md-6">
+                    <img src="appledis.png">
+                    </div> 
+                    <div class="col-md-6">
+                    <img src="googledistribution.png">
+                    </div>
+                </div>
                 </div>
         </div>
     </body>
+    <script type="text/javascript" src="static/logic.js"></script>
+    <script type="text/javascript" src="static/app.js"></script>
+    <script type="text/javascript" src="static/config.js"></script>
+    <script type="text/javascript" src="static/map.js"></script>
 </html>

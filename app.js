@@ -1,5 +1,5 @@
 var parseTime = d3.timeParse("%m, %d, %Y")
-d3.csv("teslanew.csv", function(data) {
+d3.csv("Data/teslanew.csv", function(data) {
     teslaData.forEach(function(data) {
         data.open_price = +data.open_price;
         data.high_price = +data.high_price;
@@ -21,3 +21,6 @@ d3.csv("teslanew.csv", function(data) {
         `<td>${d.volume}</td><td>${d.range}</td><td>${d.rng_perct_close}</td>`
     });
 });
+
+
+
